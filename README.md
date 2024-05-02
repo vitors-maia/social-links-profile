@@ -18,3 +18,7 @@ This repository is dedicated to solving the [Frontend Mentor](https://www.fronte
 
 
 *In this project, only [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) and [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) were used.*
+___
+## 🔎 Pré Visualização da página / Preview of the page ##
+
+![](design/destkop-design.jpg)

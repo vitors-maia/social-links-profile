@@ -94,5 +94,6 @@ body {
 }
 
 .btn:hover {
-    background-color: var(--button-hover);
+    background-color: var(--address-color);
+    color: #1F1F1F;
 }
