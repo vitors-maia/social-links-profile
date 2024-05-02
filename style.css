@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Figtree-Font;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Figtree-Italic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #141414;
+    --secondary-color: #1F1F1F;
+    --primary-font-color: #DDDDDD;
+    --address-color: #a3c93c;
+    --button-color: #333333;
+    --button-hover: #4b4b4b;
+}
+
+html {
+    font-size: 62.5%;
+    color: var(--primary-font-color);
+}
+
+body {
+    background-color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+}
+
+.card {
+    margin: auto;
+    background-color: var(--secondary-color);
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 3.5rem 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 7rem;
+    margin-bottom: 2rem;
+}
+
+.user-name {
+    font-family: Figtree-Font, sans-serif;
+    font-weight: 500;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.address {
+    color: var(--address-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Figtree-Font, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.description {
+    font-family: Figtree-Font, sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #DDDDDD;
+    text-decoration: none;
+    background-color: var(--button-color);
+    width: 23rem;
+    font-family: Figtree-Font, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: .5rem;
+}
+
+.btn:hover {
+    background-color: var(--button-hover);
+}
